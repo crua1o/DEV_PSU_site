@@ -26,6 +26,10 @@ h2 {
     font-size: 2.2rem;
 }
 
+h3 {
+  font-size: 2.75rem;
+}
+
 p {
     font-size: 1.5rem;
 }
@@ -100,16 +104,25 @@ nav ul li {
 }
 
 /* About Section */
+.about {
+  background-color: #ffffff;
+  /*background-color: #ffce8d;*/
+}
 
 .about div {
     margin: 8%;
+}
+
+/* Work Experience Section */
+.work-experience {
+  background-color: #ffd7f8;
 }
 
 /* Activities Section */
 
 .activities {
     display: block;
-    background-color: #F5FA7F;
+    background-color: #8DDFFF;
     padding: 50px 0 100px 0;
     text-align: center;
 }
@@ -134,6 +147,7 @@ nav ul li {
 
 .contact {
     justify-content: center;
+    background-color: #ffce8d;
 }
 
 .contact div {
